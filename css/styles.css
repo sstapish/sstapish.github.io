@@ -63,7 +63,7 @@ a img {
    
 #navbar ul {
 	width: 60%;
-	margin: 1% 0 3% 5%;
+	margin: 1% 0 3% 10%;
 	list-style: none;
 
 	list-style: none;
@@ -76,7 +76,7 @@ a img {
 	background: #6B90CA;
   	float: left;
  	display: list-item;
- 	margin: 2% 5%;
+ 	margin: 2% 4%;
  	font-family: 'Merienda', cursive;
 
  	height: 25px;
