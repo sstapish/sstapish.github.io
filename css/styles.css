@@ -35,7 +35,7 @@ p {
 }
 
 .alignr {
-	text-align: right;
+
 }
 
 figure {
@@ -46,8 +46,12 @@ ul {
 	list-style: none;
 		padding: 0;
 		font-family: 'Alice', serif;
-    
-	}
+    	}
+
+
+a {
+	text-decoration: none;
+}
 
 a img {
 	border: none;
