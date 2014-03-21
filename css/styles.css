@@ -44,9 +44,10 @@ figure {
 
 ul {
 	list-style: none;
-		padding: 0;
-		font-family: 'Alice', serif;
-    	}
+	padding: 0;
+	color: #1e1c45;
+	font-family: 'Alice', serif;
+	}
 
 
 a {
@@ -166,11 +167,15 @@ a img {
 }
 
 .git {
-	width: 80px;
+	width: 76px;
 }
 	
 
+/*resume*/
 
+.eagle {
+	width: 15%;
+}
 
 /*Gallery Styling*/
 
