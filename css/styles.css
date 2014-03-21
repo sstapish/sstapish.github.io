@@ -115,7 +115,10 @@ a img {
 		font-size: 1.25em;
 
 	}
-
+/*About Me*/
+.me {
+	max-width: 45%;
+}
 	
 
 /*Gallery Styling*/
