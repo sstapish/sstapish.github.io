@@ -17,14 +17,14 @@ body {
 
 }
 
-h1, h2 {
+h1, h2, h3 {
 		font-weight: normal;
 		color: #2e1f47;
 		font-family: 'Paprika', cursive;
 		text-align: center;
 	}
 
-h6, p {
+h4, h6, p {
 	
 	margin: 40px 0;
 
@@ -76,19 +76,22 @@ a img {
 	width: 95px;
 	line-height: 25px;
 	text-align: center;
+
+	float: left;
+	/*
 	background: #6B90CA;
 	border-radius: 20px;
 	box-shadow: -3px 3px 3px #1E1C45,
 	 inset 1px 1px 1px #7FABF0;
 	border-bottom-color: #334561;
-	
+	*/
 }
 
 .links ul li > a{
 	height: 25px;
 	width: 95px;
 	margin: 3%;
-	background: #6B90CA;
+	
 	text-align: center;
 	font: bold 14px 'Merienda', cursive;
 	/*
@@ -158,7 +161,12 @@ a img {
 /*home*/
 .me {
 	max-width: 25%;
+	margin: 2% 7% 3% 0;
 
+}
+
+.git {
+	width: 80px;
 }
 	
 
