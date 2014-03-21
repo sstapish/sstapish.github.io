@@ -30,6 +30,9 @@ h6, p {
 
 	color: #1e1c45;
 }
+p {
+	max-width: 400px;
+}
 
 figure {
 	margin: 0;
@@ -58,6 +61,11 @@ a img {
 	border: 10px solid #2E1F47;
 	border-radius: 5px;
 }
+
+.links ul li {
+	background: #6B90CA;
+}
+
 
 	/*Navigation*/
    
@@ -115,10 +123,10 @@ a img {
 		font-size: 1.25em;
 
 	}
-/*About Me*/
+/*home*/
 .me {
-	max-width: 45%;
-	
+	max-width: 25%;
+
 }
 	
 
