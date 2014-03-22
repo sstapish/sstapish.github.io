@@ -37,24 +37,23 @@ h3 {
 
 h4 {
 	margin: 0;
-	color: #1e1c45;
 	font-size: 1em;
 }
-
-p {
-	margin: 30px 0;
+h4, h6, p {
 	color: #1e1c45;
-	font-size: 1em;
+}
+h6 {
+	font-size: .75em;
 }
 
 p {
 	max-width: 500px;
+	margin: 30px 0;
 	font-size: 1em;
 }
 
-.alignr {
 
-}
+ 
 
 figure {
 	margin: 0;
@@ -89,14 +88,17 @@ a img {
 	border-radius: 5px;
 }
 
+.links ul {
+	margin-left: 95%;
+}
+
 .links ul li {
-	margin: 3%;
+	margin: 5%;
 	height: 25px;
 	width: 95px;
 	line-height: 25px;
 	text-align: center;
 
-	float: left;
 	/*
 	background: #6B90CA;
 	border-radius: 20px;
@@ -156,32 +158,30 @@ a img {
 	text-decoration: none;
 	}
 
-	#navbar ul li.home {
+	#navbar ul li.home, 
+	#navbar ul li.bio,
+	#navbar ul li.portfolio,
+	#navbar ul li.contact   {
 		width: 18%;
 	}
-	#navbar ul li.bio {
-		width: 18%;
-	}
-	#navbar ul li.portfolio {
-		width: 18%;
-	}
-	#navbar ul li.contact {
-		width: 18%;
-	} 
+	 
 
 	/* Pseudo-classes*/
 
 	#navbar ul li a:hover,
 	 #navbar ul li a:active {
 		color: #334561;
-		font-size: 1.25em;
+		font-size: 1.2em;
 
 	}
 /*home*/
 .me {
 	max-width: 25%;
-	margin: 2% 7% 3% 0;
+	margin: 0 10%;
 
+}
+.about {
+	margin-left: 15%;
 }
 
 .git {
@@ -382,10 +382,85 @@ a img {
 
 	/* Media Queries*/
 
-	/* first break 980px resume*/
+/*navigation*/
+@media screen and (max-width: 930px) {
+  	#navbar ul {
+	width: 40%;
+	margin: 2% 5%;
+	}
+	#navbar ul li {
+	font-size: .7em;
+	height: 20px;
+	padding: 0 8%;
+	}
+	
+}
+@media screen and (max-width: 600px) {
+  	#navbar ul {
+	width: 30%;
+	margin: 2% 5%;
+	}
+	#navbar ul li {
+	font-size: .75em;
+	height: 20px;
+	padding: 0 25%;
 
-	@media screen and (max-width: 980px) {
-  	#page-resume {
-    background: rgba(255,0,0,.8);
+	}
+	
+}
+
+
+/* home*/
+
+@media screen and (max-width: 980px) {
+  	#page-home div {
+  		margin: 5%;
+  	}
+  .links ul {
+	margin-left: 30%;
+	}
+ }
+
+
+	/* resume*/
+
+	@media screen and (max-width: 850px) {
+  	#page-resume div {
+  		margin: 3% 5%;
   }
+  .eagle {
+  	display: none;
+  }
+
+
+}
+
+
+/* gallery*/
+
+@media screen and (max-width: 1200px) {
+  	.gallery li {
+			float: left;
+      		width: 45%;
+			margin: 1%;
+		}
+}
+
+@media screen and (max-width: 920px) {
+  	.gallery li {
+			float: left;
+      		width: 45%;
+			margin: 2%;
+		}
+}
+
+@media screen and (max-width: 520px) {
+
+  	.gallery li {
+		 	float: none;
+      		width: 100%;
+			margin: 3%;
+			padding: 2%;
+      		overflow: hidden;
+		}
 }
