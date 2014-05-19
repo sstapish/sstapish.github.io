@@ -2,30 +2,96 @@
 
 /*Gloabal*/
 
-
-@font-face {
-    font-family: 'redactedregular';
-    src: url('../fonts/redacted-regular.eot');
-    src: url('../fonts/redacted-regular.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/redacted-regular.woff') format('woff'),
-         url('../fonts/redacted-regular.ttf') format('truetype'),
-         url('../fonts/redacted-regular.svg#redactedregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
+body {
+    background: url("img/mocha.png");
 }
 
-@font-face {
-    font-family: 'redacted_scriptregular';
-    src: url('../fonts/redacted-script-regular.eot');
-    src: url('../fonts/redacted-script-regular.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/redacted-script-regular.woff') format('woff'),
-         url('../fonts/redacted-script-regular.ttf') format('truetype'),
-         url('../fonts/redacted-script-regular.svg#redacted_scriptregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
 
 /* Typography */
 
+h4 {
+    margin: 0;
+   color: #1e1c45;
+    font-size: 1em;
+}
+ 
+
+h4, h6, p {
+    color: #1e1c45;
+   font-size: 1em;
+}
+
+h6 {
+   font-size: .75em;
+}
+  
+p {
+ max-width: 500px;
+ margin: 30px 0;
+font-size: 1em;
+  }
+
+.links ul {
+   margin-left: 95%;
+}
+/* navbar */
+
+#navbar ul li.bio 
+  #navbar ul li.home, 
+  #navbar ul li.bio,
+  #navbar ul li.portfolio,
+  #navbar ul li.contact   {
+        width: 18%;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a:active {
+        color: #334561;
+      font-size: 1.25em;
+      font-size: 1.2em;
+   }
+
+
+/* Media Queries*/
+  
+  /* first break 980px resume*/
+ /*navigation*/
+/*
+ @media screen and (max-width: 930px) {
+       #navbar ul {
+   width: 40%;
+   margin: 2% 5%;
+   }
+  #navbar ul li {
+   font-size: .7em;
+   height: 20px;
+   padding: 0 8%;
+   }
+   
+ }
+
+ @media screen and (max-width: 600px) {
+       #navbar ul {
+   width: 30%;
+   margin: 2% 5%;
+   }
+   #navbar ul li {
+   font-size: .75em;
+   height: 20px;
+   padding: 0 25%;
+ 
+   }
+   
+ }
+ 
+ 
+ /* home*/
+ /*
+ @media screen and (max-width: 980px) {
+       #page-home div {
+           margin: 5%;
+       }
+   .links ul {
+   margin-left: 30%;
+   }
+  }
